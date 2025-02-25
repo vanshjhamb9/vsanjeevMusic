@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Loader from "../components/Loader";
 
 const categories = [
+  { id: "photographypithan", name: "Photographypithan", thumbnail: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473235/DSC01807-2_jzwksg.jpg" },
   { id: "magalae", name: "Magalae Kanmaniye", thumbnail: "https://res.cloudinary.com/dqdui1hq8/image/upload/v1738840643/IMG_1562_vyn6dy.jpg" },
   { id: "award", name: "Award Photos", thumbnail: "https://res.cloudinary.com/dqdui1hq8/image/upload/v1738839499/IMG_0420_kawgth.jpg" },
   { id: "harmony", name: "Lost in Harmony", thumbnail: "/Harmony/Lost in Harmony (5).jpg" },
@@ -22,6 +23,16 @@ const media = {
     // { type: "video", src: "https://res.cloudinary.com/dqdui1hq8/video/upload/v1738840663/IMG_1563_oyngca.mov" },
     // { type: "video", src: "https://res.cloudinary.com/dqdui1hq8/video/upload/v1738840659/IMG_1557_so60l5.mov" },
     // { type: "video", src: "https://res.cloudinary.com/dqdui1hq8/video/upload/v1738840655/IMG_1556_sbotcc.mov" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473234/DSC01815_pwb93z.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473233/DSC01816_vpbdl2.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473225/DSC01805_lpuu2k.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473225/DSC01806_qaakn6.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473225/DSC01806-2_q7ovsz.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473228/DSC01812_sw94e2.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740472804/DSC01810-2_fmlfa1.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740472804/DSC01810_uedrwy.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740472809/DSC01808_b26gul.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473239/DSC01818_u4eyrm.jpg" },
     { type: "video", src: "/Magale/IMG_1555.mp4" },
     { type: "video", src: "/Magale/IMG_1556.mp4" },
     { type: "video", src: "/Magale/IMG_1561.mp4" },
@@ -37,6 +48,30 @@ const media = {
 
 
 
+  ],
+   photographypithan: [
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473235/DSC01807-2_jzwksg.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473242/DSC01818-2_tnpifn.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473239/DSC01818_u4eyrm.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473237/DSC01817_nibxog.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473236/DSC01817-2_enmlib.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473235/DSC01807-2_jzwksg.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473234/DSC01815-2_vnvkvz.jpg" },
+     { type: "image", src: "/Harmony/Lost in Harmony (1).jpg" },
+    { type: "image", src: "/Harmony/Lost in Harmony (5).jpg" },
+    { type: "image", src: "/Harmony/Lost in Harmony (6).jpg" },
+    { type: "image", src: "/Harmony/Lost in Harmony (11).jpg" },
+    { type: "image", src: "/Harmony/Lost in Harmony (16).jpg" },
+    { type: "image", src: "/Harmony/Lost in Harmony (19).jpg" },
+    { type: "image", src: "/Harmony/Lost in Harmony (20).jpg" },
+    { type: "image", src: "/Harmony/Lost in Harmony (21).jpg" },
+    { type: "image", src: "/Harmony/Lost in Harmony (26).jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473234/DSC01815_pwb93z.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473233/DSC01816_vpbdl2.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473231/DSC01814-2_vxvkk5.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473232/DSC01812-2_vw2car.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473230/DSC01811-2_lpftre.jpg" },
+    { type: "image", src: "https://res.cloudinary.com/dk2kmlqr1/image/upload/v1740473228/DSC01812_sw94e2.jpg" },
   ],
   award: [
     { type: "image", src: "https://res.cloudinary.com/dqdui1hq8/image/upload/v1738839500/IMG_0422_scgytj.jpg" },
@@ -57,6 +92,7 @@ const media = {
     { type: "image", src: "/awards/score-winner-TMA's-certificate.jpg" },
     { type: "image", src: "/awards/SILENT FILM.jpg" },
     { type: "image", src: "/awards/ЗАТЕРЯННЫЙ В ГАРМОНИИ.png" },
+    
    
 
   ],
