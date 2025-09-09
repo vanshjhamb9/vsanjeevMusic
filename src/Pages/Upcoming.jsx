@@ -9,7 +9,7 @@ const UpcomingProjects = () => {
   return (
     <div className="min-h-screen bg-black text-white p-8 flex flex-col items-center">
       <h1 className="bg-gradient-to-br from-brown-5 via-skyblue to-yellow-100 bg-clip-text lg:text-4xl md:text-4xl xs:text-3xl font-semibold text-transparent border-b-2 border-richblack-400 pb-2 mb-10 uppercase tracking-wide">
-        Upcoming Projects
+        Recent Projects
       </h1>
 
       <div className="w-full max-w-4xl space-y-8">
