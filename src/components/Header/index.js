@@ -266,7 +266,7 @@ const Header = () => {
           Awards
         </Link>
         <Link to="/upcomigprojects" >
-        Upcoming Project
+        Recent Project
         </Link>
         <Link to="/contact">
         Contact
