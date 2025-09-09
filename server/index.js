@@ -10,10 +10,10 @@ const PORT = process.env.PORT || 4000;
 
 //middlewares
 app.use(
-	cors({
-		origin:"*",
-		credentials:true,
-	})
+        cors({
+                origin:"*",
+                credentials:true,
+        })
 )
 
 // Parse JSON bodies for POST requests
@@ -27,13 +27,13 @@ app.use("/api/v1/reach", contactUsRoute);
 //def route
 
 app.get("/", (req, res) => {
-	return res.json({
-		success:true,
-		message:'Your server is up and running....'
-	});
+        return res.json({
+                success:true,
+                message:'Your server is up and running....'
+        });
 });
 
-app.listen(PORT, () => {
-	console.log(`App is running at ${PORT}`)
+app.listen(PORT, 'localhost', () => {
+        console.log(`App is running at localhost:${PORT}`)
 })
 
