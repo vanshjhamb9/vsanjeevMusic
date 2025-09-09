@@ -14,6 +14,7 @@ import Awards from "./Pages/Awards";
 import UpcomingProjects from "./Pages/Upcoming";
 import Contact from "./Pages/Contact";
 import Gallery from "./Pages/Gallery";
+import FycGrammy from "./Pages/FycGrammy";
 
 const Header = lazy(() => import("./components/Header/index"));
 
@@ -65,6 +66,7 @@ function App() {
               <Route path="/composition" element={<CompositionPage />} />
               <Route path="/awards" element={<Awards />} />
               <Route path="/upcomigprojects" element={<UpcomingProjects />} />
+              <Route path="/fycgrammy" element={<FycGrammy />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/gallery" element={<Gallery />} />
             </Routes>
