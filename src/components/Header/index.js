@@ -306,7 +306,7 @@ const Header = () => {
           Awards
         </Link>
         <Link to="/upcomigprojects" onClick={() => setClick(false)} >
-        Recent Project
+        Recent Projects
         </Link>
         <Link to="/contact" onClick={() => setClick(false)}>
         Contact
