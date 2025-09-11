@@ -244,9 +244,9 @@ const Header = () => {
         <Link to="/biography" className="font-mono" >
           Biography
         </Link>
-        <Link to="/gallery">
+        {/* <Link to="/gallery">
           Gallery
-        </Link>
+        </Link> */}
         <Link to="/videos" className="font-mono" >
           Video
         </Link>
@@ -284,14 +284,17 @@ const Header = () => {
       <Link to="/biography" className="font-mono" onClick={() => setClick(false)} >
           Biography
         </Link>
-        <Link to="/gallery" onClick={() => setClick(false)}>
+        {/* <Link to="/gallery" onClick={() => setClick(false)}>
           Gallery
-        </Link>
+        </Link> */}
         <Link to="/videos" className="font-mono"onClick={() => setClick(false)} >
           Video
         </Link>
         <Link to="/audios" className="font-mono" onClick={() => setClick(false)}>
           Audio
+        </Link>
+        <Link to="/fycgrammy" className="font-mono" onClick={() => setClick(false)}>
+        FYC GRAMMY
         </Link>
         <Link to="/playlist" className="font-mono" onClick={() => setClick(false)}>
           Song Album
